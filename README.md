@@ -53,6 +53,24 @@
 
 Evidence is graded on a four-tier hierarchy (official/primary records and court or agency releases → independent technical analyses → reputable reporting → unverified secondary claims, used only when labelled). Findings are classified **confirmed / operator-reported / cannot be established**. Risks use a defined 5×5 matrix with residual-rating discipline (no residual falls below Moderate against a state-level actor without justification). Control gaps use the four-class taxonomy: *Absent / Ineffective / Insufficiently Evidenced / Cannot Be Established*. This interim assessment deliberately carries more "Cannot Be Established" ratings than a mature one would. That is the honest signature of assessing a two-week-old incident from public evidence. Full detail: [`methodology/methodology.md`](methodology/methodology.md).
 
+## How the assessment was built
+
+The sequence matches the companion project, with one change driven by timing: grading came first. Because the assessment was written about two weeks after the incident, every material claim was classified as corroborated, operator-reported, or cannot yet be established before it was used anywhere. The graded evidence then fed the same working artefacts: a 16-risk register, a 15-domain control-gap matrix, a framework crosswalk, a phased remediation roadmap, and an audit test plan that includes a timed revocation drill and a replay of the 50-authorisation sweep pattern. A conflicting-figures register (CF-01 to CF-09) tracks every place the sources disagree, and the evidence index lists what could not be verified at all.
+
+### Decisions
+
+- **Publish interim, with the grading visible, rather than wait for the final post-mortem.** An assessment written during an incident is useful to a board precisely because it separates what is known from what is not. The trade-off is that specific judgements will move, so the methodology names the events that should trigger a revision.
+- **Operator statements treated as management representations.** Binance's statement that customer coverage is complete is recorded as a representation funded from its own funds, not as recovered money and not as a verified finding. When Binance's preliminary report restated a contemporaneous 90% coverage figure as 98%, the report analysed the discrepancy instead of adopting either number quietly.
+- **Detection time left blank.** Public on-chain reporting appeared within minutes, but no credible source establishes when Binance's own systems detected the theft. The report claims no detection time rather than borrowing the public one.
+- **The money kept as five separate measures.** Stolen, frozen, under court restraint, still held by the attacker, and recovered are different quantities. The recovered figure has never been disclosed, and the report treats that absence as a fact to state, not a gap to estimate around.
+- **Residual risk discipline against a state-level actor.** No residual rating falls below Moderate where the threat actor is a state-level group without a stated justification. An interim report written in the incident's shadow has every incentive to score the response generously, and the rule exists to counter that.
+
+## Worth and lessons
+
+The worth of an interim assessment is the map of unknowns. Boards reading about a two-week-old incident are usually handed either the operator's account or press coverage. This report gives them a third thing: the incident account with each claim's evidence grade attached, a risk register and control assessment built on that graded base, and an explicit list of what cannot yet be established, starting with the detection time and the recovered amount.
+
+Two lessons stand out. First, when the operator is both the subject of the assessment and the main source for it, grading claims in the open is not a stylistic choice. It is the whole method. Second, a production failure made the same point from the other side: an early published version of the audit test plan in this repo was truncated, and it was only caught by reading the published file back in full. The plan was rebuilt from the project's own materials and verified complete by reading it back end to end.
+
 ## Limitations
 
 This is a public-evidence assessment only. There were no internal Binance documents, no interviews, and no system access. Figures are still moving. The final operator post-mortem and the outstanding proof-of-reserves verifications may change specific assessments. Nothing here asserts that any law or regulation was violated. Framework mappings are control-design benchmarks, not certification findings.
