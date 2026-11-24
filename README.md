@@ -55,7 +55,7 @@ Evidence is graded on a four-tier hierarchy (official/primary records and court 
 
 ## How the assessment was built
 
-The sequence matches the companion project, with one change driven by timing: grading came first. Because the assessment was written about two weeks after the incident, every material claim was classified as corroborated, operator-reported, or cannot yet be established before it was used anywhere. The graded evidence then fed the same working artefacts: a 16-risk register, a 15-domain control-gap matrix, a framework crosswalk, a phased remediation roadmap, and an audit test plan that includes a timed revocation drill and a replay of the 50-authorisation sweep pattern. A conflicting-figures register (CF-01 to CF-09) tracks every place the sources disagree, and the evidence index lists what could not be verified at all.
+The sequence matches the companion project, with one change driven by timing: I graded the evidence first. Because I wrote the assessment about two weeks after the incident, I classified every material claim as corroborated, operator-reported, or cannot yet be established before I used it anywhere. The graded evidence then fed the same working artefacts: a 16-risk register, a 15-domain control-gap matrix, a framework crosswalk, a phased remediation roadmap, and an audit test plan that includes a timed revocation drill and a replay of the 50-authorisation sweep pattern. A conflicting-figures register (CF-01 to CF-09) tracks every place the sources disagree, and the evidence index lists what could not be verified at all.
 
 ### Decisions
 
@@ -69,7 +69,7 @@ The sequence matches the companion project, with one change driven by timing: gr
 
 The worth of an interim assessment is the map of unknowns. Boards reading about a two-week-old incident are usually handed either the operator's account or press coverage. This report gives them a third thing: the incident account with each claim's evidence grade attached, a risk register and control assessment built on that graded base, and an explicit list of what cannot yet be established, starting with the detection time and the recovered amount.
 
-Two lessons stand out. First, when the operator is both the subject of the assessment and the main source for it, grading claims in the open is not a stylistic choice. It is the whole method. Second, a production failure made the same point from the other side: an early published version of the audit test plan in this repo was truncated, and it was only caught by reading the published file back in full. The plan was rebuilt from the project's own materials and verified complete by reading it back end to end.
+Two lessons stand out. First, when the operator is both the subject of the assessment and the main source for it, grading claims in the open is not a stylistic choice. It is the whole method. Second, a production failure made the same point from the other side: an early published version of the audit test plan in this repo was truncated, and I only caught it by reading the published file back in full. I rebuilt the plan from the project's own materials and verified it complete by reading it back end to end.
 
 ## Limitations
 
